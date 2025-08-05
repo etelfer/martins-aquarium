@@ -1,0 +1,105 @@
+.fish {
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 400px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.fish:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fish_title {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.fish__image {
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+
+.fish__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.fish__details {
+    padding: 20px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+
+/* start css for tips section here */
+
+.tips_title {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.tip {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.tip:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.tip__topic {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.tip__text {
+    padding: 20px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}

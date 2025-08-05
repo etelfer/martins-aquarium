@@ -1,0 +1,18 @@
+#fishList {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ gap: 20px;
+ padding: 20px;
+ max-width: 500px;
+}
+
+#tipList {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: right;
+ gap: 20px;
+ padding: 20px;
+ max-width: 500px;
+}
+
