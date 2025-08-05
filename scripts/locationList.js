@@ -7,8 +7,9 @@ export const locationList = () => {
 
 
    locationHTML += '<article class="locations">'
-    locationHTML += ` <h2 class="locations_title">Locations</h2>`
 
+   locationHTML += `<h2 class="locations_title">Locations</h2>`
+  
 
     for (const location of database.locations) {
         locationHTML += `

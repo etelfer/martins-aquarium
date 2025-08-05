@@ -1,18 +1,44 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 40px; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
 #fishList {
- display: flex;
- flex-wrap: wrap;
- justify-content: left;
- gap: 20px;
- padding: 20px;
- max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    flex-grow: 1;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
 }
 
 #tipList {
- display: flex;
- flex-wrap: wrap;
- justify-content: right;
- gap: 20px;
- padding: 20px;
- max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+    max-width: 200px;
+}
+#locationList {
+    flex-basis: 100%;
 }
 
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
