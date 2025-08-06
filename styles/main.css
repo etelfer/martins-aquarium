@@ -3,6 +3,10 @@ header h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .fish {
     
     display: flex;
@@ -41,8 +45,8 @@ header h1 {
 }
 
 .fish__image {
-    max-width: 6rem;
-    max-height: 6rem;
+    max-width: 8rem;
+    max-height: 8rem;
 }
 
 

@@ -63,8 +63,65 @@ export const database = {
             location: "Sydney Harbour (Aquarium)",
             diet: "Omnivore",
             image: "https://i.pinimg.com/736x/70/38/ad/7038adfaa0d55981ec73d3bdfaa6c181.jpg"
+        },
+        {
+            "name": "Bruce",
+            "species": "Great White Shark",
+            "length": 15,
+            "location": "Eastern Australia",
+            "diet": "Carnivore",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7m9Wp-Ll-I8dPi7NT3UegzlQfAPoPlbYRVg&s"
+        },
+        {
+            "name": "Chum",
+            "species": "Mako Shark",
+            "length": 9,
+            "location": "Open Ocean",
+            "diet": "Carnivore",
+            "image": "https://i.pinimg.com/736x/65/90/7e/65907e70c6fd9f84d3d8cd6a3d758f7d.jpg"
+        },
+        {
+            "name": "Anchor",
+            "species": "Hammerhead Shark",
+            "length": 10,
+            "location": "Coral Reefs",
+            "diet": "Carnivore",
+            "image": "https://assets.mycast.io/actor_images/actor-anchor-finding-nemo-781349_large.jpg?1685838962"
+        },
+        {
+            "name": "Crush",
+            "species": "Sea Turtle",
+            "length": 12,
+            "location": "East Australian Current",
+            "diet": "Herbivore",
+            "image": "https://i.pinimg.com/736x/27/11/45/27114591b632f74dbf33dbe0f097a001.jpg"
+        },
+        {
+            "name": "Pearl",
+            "species": "Flapjack Octopus",
+            "length": 6,
+            "location": "Deep Ocean",
+            "diet": "Carnivore",
+            "image": "https://i.pinimg.com/736x/1e/61/1e/1e611e421a08c5e0c72fa66e89b3a74f.jpg"
+        },
+        {
+            "name": "Sheldon",
+            "species": "Seahorse",
+            "length": 3,
+            "location": "Sydney Harbour",
+            "diet": "Carnivore",
+            "image": "https://i.pinimg.com/736x/1d/15/7e/1d157e93520da195f144027b39797371.jpg"
+        },
+        {
+            "name": "Mr. Ray",
+            "species": "Spotted Eagle Ray",
+            "length": 25,
+            "location": "Tropical Waters",
+            "diet": "Carnivore",
+            "image": "https://cdnb.artstation.com/p/assets/images/images/031/968/267/medium/bas-raven-sculptober-30-sting-mr-ray-2.jpg?1605106214"
         }
-    ],
+        ],
+
     tips: [
     {
         topic: "Water Temperature",
